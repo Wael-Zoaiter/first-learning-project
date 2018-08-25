@@ -1,0 +1,637 @@
+body {
+    box-sizing: border-box;
+    height:4000px;
+    background-color: #EEE;
+    font-family: 'Open Sans', sans-serif;
+/*    font-family: 'Raleway', sans-serif;*/
+}
+
+/* My Framework */
+
+.tmc {color: #ff9b51}
+.bmc {background-color: #ff9b51}
+.fwb {font-weight: bold}
+.fwl {font-weight: 300}
+.pgc {color: #999}
+.hba:after {content:'';
+    display: block;
+    background-color:#ff9b51;
+    width: 65px;
+    height: 3px;
+    margin: 25px 0
+}
+
+@media (max-width: 768px) {
+    .tcs {
+        text-align: center
+    }
+}
+.f-raleway {font-family: 'Raleway', sans-serif}
+/* Start Navbar */
+
+.navbar {
+    border: none
+}
+
+.navbar .navbar-brand {
+    color: #FFF;
+    font-weight: bold
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff
+}
+
+.navbar-toggle {
+    border-radius: 20%;
+    border: none
+}
+
+/* End Navbar */
+
+/* Start Header */
+
+header {
+    background: url(../img/u2_state0.jpg) no-repeat top center;
+    background-size: cover;
+    color: #FFF
+}
+
+header .overlay {
+    background-color: rgba(0,0,0,.2);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0
+}
+
+header .row {
+    margin: 100px 0
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 10vh;
+    padding: 0
+}
+
+header h1 ~ h2 {
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase
+}
+
+header .lead {
+    font-size: 15px;
+    margin: 0;
+    
+}
+
+.sec12 {
+    padding: 0 75px
+}
+
+header button.btn-default {
+    background-color: transparent;
+    border: 1px solid #FFF;
+    margin: 30px 0;
+    color: #FFF
+}
+
+header form {
+    background-color: #FFF;
+    border-radius: 5px;
+    width: 80%;
+    margin: 20px auto
+}
+
+header form h3 {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0;
+    background-color: #eee
+}
+
+header form .form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    box-shadow: none
+}
+
+header form input[type="text"],
+header form input[type="email"],
+header form input[type="password"] {
+    width: 80%;
+    margin: 30px auto 
+}
+
+header form input[type="submit"] {
+    color: #fff;
+    padding: 15px 0;
+    border: none;
+    height: 10%;
+    margin-top: 40px;
+    background-color: #ff9b51;
+}
+
+/* End Header */
+
+/* Start Social Media */
+
+.socialMedia {
+    background-color: #fff;
+    box-shadow: 0px 1px 5px #222
+}
+
+.socialMedia i {
+    color: #ccc;
+    margin: 30px 15px;
+    transition : all 1s ease-in-out
+}
+
+.socialMedia i:hover {
+    color: #333;
+    transition : all 1s ease-in-out
+}
+
+.socialMedia i.fa-facebook {
+    margin-left: 90px
+}
+
+.socialMedia h4 {
+    margin-bottom: 5px;
+    margin-top: 20px
+}
+
+.socialMedia p {
+    color: #999;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px
+}
+
+/* End Social Media */
+
+/* Start Tabs Section */
+
+.tabSection {
+    padding: 70px 0;
+    background-color: #f1f1f1
+}
+
+.tabSection .tab-switch li {
+    width:100px;
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 1px solid #FFF;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    font-family: 'Raleway', sans-serif
+}
+
+@media (max-width: 768px) {
+    .tabSection .tab-switch li {
+        display: inline-block
+    }
+}
+
+.tabSection .tab-switch li.selected {
+    background-color: #ff9b51
+}
+
+.tabSection .tab-switch li:hover {
+    background-color: #ff9b51
+}
+
+.tabSection h4 {
+    margin-bottom: 35px
+}
+
+.tabSection p {
+    margin-bottom: 35px;
+    color: #888
+}
+
+.tabSection button {
+    padding: 8px 10px;
+    background-color: #ff9b51;
+    border: none
+}
+
+.tabSection button:hover {
+    background-color: #cb6d28
+}
+
+.tabSection img {
+    margin: 25px auto
+}
+
+.tab-content div:not(.tab1) {
+    display: none
+}
+
+/* End Tabs Section */
+
+/* Start Sublist */
+
+.sublist {
+    background-color: #fff;
+    padding: 80px
+}
+
+.sublist h3 ~ p {
+    margin-bottom: 40px
+}
+
+.sublist h4 ~ p {
+    margin-bottom: 30px
+}
+
+.sublist i {
+    color: #ff9b51;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    border: 2px solid #ff9b51;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px
+}
+
+@media (max-width: 768px) {
+    .sublist i {
+        float: none;
+        margin: 0
+    }
+}
+
+.sublist img {
+    margin-top: 60px
+}
+
+/* End Sublist */
+
+/* Start Standard */
+
+.standard {
+    background-color: #f5f5f5;
+    padding: 80px
+}
+
+.standard h3 ~ p {
+    margin-bottom: 40px
+}
+
+.standard h3 {
+    margin-top: 40px
+}
+
+/* End Standard */
+
+/* Start Features */
+
+.features {
+    padding: 100px 0;
+    background-color: #fff
+}
+
+.features h1 ~ p {
+    margin-bottom: 50px
+}
+
+.features .hba:after {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.features h4 {
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.features i {
+    color: #ff9b51;
+    width: 70px;
+    height: 70px;
+    line-height: 66px;
+    border: 2px solid #ff9b51;
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: all .5s ease-in-out
+}
+
+.features i:hover {
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #ff9b51
+}
+
+/* End Features */
+
+/* Start Pricing */
+
+.pricing {
+    padding: 80px 0;
+    background-color: #f5f5f5
+}
+
+.pricing h1 ~ p {
+    margin-bottom: 50px
+}
+
+.pricing .panel {
+    background-color: #333
+}
+
+.pricing .panel-default {
+    background-color: #333;
+    color: #fff;
+}
+
+.pricing .panel {
+    margin-bottom: 0px;
+    box-shadow: none
+}
+
+.pricing .panel.enterprise,
+.pricing .panel.basic {
+    margin-top: 33px
+}
+
+.panel-heading {
+    padding: 10px 15px;
+     border-bottom: 1px solid #fff; 
+     border-top-left-radius: 2px; 
+     border-top-right-radius: 2px; 
+}
+
+.panel-default > .panel-heading {
+    color: #fff;
+    background-color: #333;
+    border-bottom: 1px solid #f5f5f5
+}
+
+.pricing .panel-default p {
+    font-size: 60px;
+    font-weight: 900
+}
+
+.pricing .panel-default:hover p {
+    color: #ff9b51;
+    transform: scale(1.5) rotate(10deg);
+    transition: all .5s ease
+}
+
+.pricing .panel-default p span {
+    font-size: 25px;
+    font-weight: 900
+}
+
+.panel-body {
+    padding: 0;
+    border-bottom: 6px solid #ff9b51;
+    border-radius: none;
+    box-shadow: 0
+}
+
+.pricing .panel-body.mostpop {
+    border: none
+}
+
+.pricing .boxhover {
+    padding: 10px
+}
+
+.pricing .list-group-item:not(:first-of-type) {
+    border-bottom: none;
+    border-top: 1px solid #ddd;
+    border-left: none;
+    border-right: none;
+}
+
+.pricing .list-group-item:first-of-type {
+    border: none;
+    border-radius: none
+}
+
+.pricing li {
+    border-bottom: 1px solid #ddd;
+    color: #999
+}
+
+.pricing ul {
+    border-radius: none
+}
+
+.pricing .hba:after {
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* End Pricing */
+
+/* Start Tetimonials */
+
+.testi {
+    background-color: #fff;
+    padding: 80px 0
+}
+
+.testi .hba:after {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.testi h1 ~ p {
+    margin-bottom: 40px
+}
+
+.testi .quete {
+    background-color: #eee;
+    color: #666;
+    width: 85%;
+    text-align: left;
+    padding: 25px 15px;
+    margin-bottom: -10px
+}
+
+.testi .quete:hover {
+    transform: skewX(2deg);
+    transition: all .2s ease-in-out
+}
+
+/*
+.testi .quete:after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 40px;
+    bottom: 65px;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: #eee transparent transparent transparent
+}
+*/
+
+.testi .tria {
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    margin-left: 29px;
+    transform: rotate(45deg);
+}
+
+.testi img {
+    float: left;
+    margin-right: 15px
+}
+
+.testi img:hover {
+    transform: scale(1.1)
+}
+
+.testi .person {
+    margin-top: 10px
+}
+
+.testi .person h4 {
+    padding-top: 18px;
+    margin: 2px 0
+}
+
+.testi .person p {
+    font-size: 13px
+}
+
+.testi .person h4,
+.testi .person p {
+    text-align:left;
+    margin-left: 80px
+}
+@media (max-width: 768px) {
+    .testi .sec33 {
+        margin: 40px 0
+    }
+}
+
+.testi .person:hover h4,
+.testi .person:hover p {
+    transform: translate(5px) rotate(1deg);
+    transition: all .5s ease
+}
+
+/* End Tetimonials */
+
+/* Start Style */
+
+.style {
+    background: url(../img/style.png);
+    background-size: cover;
+    color: #fff;
+    padding: 40px
+}
+
+.style button.btn-default {
+    background-color: transparent;
+    border: 2px solid #FFF;
+    margin: 30px 0;
+    color: #FFF;
+    border-radius: none;
+    padding: 10px 30px
+}
+
+.style button.btn-default:hover {
+    color: #222;
+    background-color: #fff;
+    transition: all .5s ease
+}
+
+.style .hba:after {
+    margin: 30px auto;
+    background-color: #fff
+}
+
+.style h1 ~ p {
+    margin-bottom: 10px;
+    color: #fff
+}
+
+/* End Style */
+
+/* Start Contact */
+
+.contact {
+    padding: 60px 0;
+    background-color: #fff
+}
+
+.contact .hba:after {
+    margin: 30px auto;
+}
+
+.contact h1 ~ p {
+    margin-bottom: 50px
+}
+
+.contact form {
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.contact form .form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    box-shadow: none
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form input[type="password"] {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px
+}
+
+.contact textarea {
+    height: 110px
+}
+
+.contact form input[type="submit"] {
+    color: #fff;
+    padding: 15px 0;
+    border: none;
+    height: 40px;
+    line-height: 10px;
+    width: 33%;
+    background-color: #ff9b51;
+}
+
+/* End Contact */
+
+/* Start Footer */
+
+footer {
+    background-color: #222;
+    color: #bbb;
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 5px 0 0 0;
+    font-size: 13px
+}
+
+footer i {
+    margin-right: 20px
+}
+/* End footer */
